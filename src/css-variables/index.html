@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2 style="--base: yellow">Update CSS variables with <span class="hl">JavaScript</span></h2>
+
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px"/>
+
+      <label for="blur">Blur:</label>
+      <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px"/>
+
+      <label for="base">Base Colour:</label>
+      <input id="base" type="color" name="base" value="green"/>
+    </div>
+
+    <img src="https://picsum.photos/id/400/400/250">
+
+    <script src="app.js"></script>
+  </body>
+</html>
