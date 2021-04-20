@@ -1,3 +1,5 @@
+'use strict';
+
 const panels = document.querySelectorAll('.panel');
 const panelchildren = document.querySelectorAll('.panel p');
 
