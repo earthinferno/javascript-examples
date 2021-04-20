@@ -49,8 +49,16 @@
     // const newcomments = comments.splice(0,1);
     // console.log(comments);
 
-    comments.splice(comments.findIndex((comment) => comment.id == 823423), 1);
-    console.log(comments);
+    const commentsCopy = [...comments];
+    commentsCopy.splice(commentsCopy.findIndex((comment) => comment.id == "823423"), 1);
+    console.table(commentsCopy);
+
+    const idx = comments.findIndex((comment) => comment.id == "823423");
+    console.log(idx);
+    console.table([
+      ...comments.slice(0,idx), 
+      ...comments.slice(idx + 1)
+    ]);
 
   </script>
 </body>
