@@ -11,4 +11,6 @@ npm i
 ## Run webserver
 
 From directory src:
-`npx ws --log.format dev`
+```
+npx ws --log.format dev
+```
