@@ -19,7 +19,7 @@ function onCheck (event) {
   const [start, end] = getIndexes(previouslyChecked, this);
   console.log(`start: ${start} end: ${end}`);
   
-  if (event.shiftKey && this.checked)
+  if (event.shiftKey && this.checked && previouslyChecked.checked === true)
   {
     for (let i = start; i <= end; i++) {
       checkboxes[i].checked = true;
