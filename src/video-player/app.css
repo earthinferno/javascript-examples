@@ -68,7 +68,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* transform: translateY(100%) translateY(-5px); */
+  transform: translateY(100%) translateY(-5px);
   transition: all .3s;
   flex-wrap: wrap;
   background: rgba(0,0,0,0.1);
@@ -101,9 +101,25 @@ body {
   width: 50%;
   background: #ffc600;
   flex: 0;
-  flex-basis: 50%;
+  /* flex-basis: 1%; */
 }
 
+.fullscreen__button {
+  background: none;
+  border: 0;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  max-width: 50px;
+}
+
+
+.expander__button {
+  max-width: 20px;
+}
 /* unholy css to style input type="range" */
 
 input[type=range] {
