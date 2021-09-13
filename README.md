@@ -1,6 +1,6 @@
 # Instructions
 
-Contains a number of javascript examples based on the course Jvascript 30
+Contains a number of javascript examples based on the course Javascript 30 https://courses.wesbos.com/account
 
 Serve the web page from the child src directory, e.g. src\drumkit
 
